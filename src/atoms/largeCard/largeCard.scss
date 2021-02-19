@@ -22,11 +22,13 @@
     width: 100%;
   }
 
-  img.cardImage {
+  img.largecardImage {
+    width: 1000px;
+    height: 500px;
     border-radius: 25px;
-    height: 200px;
-    width: 250px;
-}
+    margin: 0 150% 0 150%;
+    margin-top: 25px;
+  }
 
   /* Remove extra left and right margins, due to padding */
   .row {

@@ -12,37 +12,37 @@ const Card = ({title}) => {
       </div>
       <div className="column">
         <div className="card">
-          <img src={small} alt="columnImage" />
+          <img src={small} alt="columnImage" className="cardImage"/>
         </div>
       </div>
 
       <div className="column">
         <div className="card">
-          <img src={small} alt="columnImage" />
+          <img src={small} alt="columnImage" className="cardImage"/>
         </div>
       </div>
 
       <div className="column">
         <div className="card">
-          <img src={small} alt="columnImage" />
+          <img src={small} alt="columnImage" className="cardImage"/>
         </div>
       </div>
 
       <div className="column">
         <div className="card">
-          <img src={small} alt="columnImage" />
+          <img src={small} alt="columnImage" className="cardImage"/>
         </div>
       </div>
 
       <div className="column">
         <div className="card">
-          <img src={small} alt="columnImage" />
+          <img src={small} alt="columnImage" className="cardImage"/>
         </div>
       </div>
 
       <div className="column">
         <div className="card">
-          <img src={small} alt="columnImage" />
+          <img src={small} alt="columnImage" className="cardImage"/>
         </div>
       </div>
     </div>

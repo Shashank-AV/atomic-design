@@ -13,7 +13,7 @@ const Carosel = () => {
           <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
 
-        <div className="carousel-inner" style={{ height: "500px" }}>
+        <div className="carousel-inner" style={{ height: "500px", borderRadius: "15px" }}>
           <div className="item active">
             <img src={kgf} alt="pogaru"  />
           </div>
