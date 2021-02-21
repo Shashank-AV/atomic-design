@@ -6,49 +6,45 @@ import never from "../../assets/image/neverending.jpg";
 import machinist from "../../assets/image/machinist.jpg";
 import million from "../../assets/image/million.jpg";
 import solider from "../../assets/image/soliders.png";
-import "./card.scss";
+import "./caroselCard.scss";
 
-const Card = ({title}) => {
+const CaroselCard = ({title}) => {
   return (
-    <div className="smallContainer">
-    <div className="row">
-      <div className="row">
-        <Title title={title} />
-        <h4 className="viewall">View All</h4>
-      </div>
+    <div className="smallCaroselContainer">
+    <div className="rowCarosel">
       <div className="column">
         <div className="card">
-          <img src={small} alt="columnImage" className="cardImage"/>
+          <img src={small} alt="columnImage" className="cardCaroselImage"/>
         </div>
       </div>
 
       <div className="column">
         <div className="card">
-          <img src={wonder} alt="columnImage" className="cardImage"/>
+          <img src={wonder} alt="columnImage" className="cardCaroselImage"/>
         </div>
       </div>
 
       <div className="column">
         <div className="card">
-          <img src={never} alt="columnImage" className="cardImage"/>
+          <img src={never} alt="columnImage" className="cardCaroselImage"/>
         </div>
       </div>
 
       <div className="column">
         <div className="card">
-          <img src={machinist} alt="columnImage" className="cardImage"/>
+          <img src={machinist} alt="columnImage" className="cardCaroselImage"/>
         </div>
       </div>
 
       <div className="column">
         <div className="card">
-          <img src={solider} alt="columnImage" className="cardImage"/>
+          <img src={solider} alt="columnImage" className="cardCaroselImage"/>
         </div>
       </div>
 
       <div className="column">
         <div className="card">
-          <img src={million} alt="columnImage" className="cardImage"/>
+          <img src={million} alt="columnImage" className="cardCaroselImage"/>
         </div>
       </div>
     </div>
@@ -56,4 +52,4 @@ const Card = ({title}) => {
   );
 };
 
-export default Card;
+export default CaroselCard;

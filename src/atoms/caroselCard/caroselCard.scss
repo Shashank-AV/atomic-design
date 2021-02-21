@@ -17,26 +17,26 @@
     font-weight: bold;
   }
 
-  .smallContainer {
-    background-color: #262931;
+  .smallCaroselContainer {
+    background-color: #1E1C20;
     width: 100%;
   }
 
-  img.cardImage {
+  img.cardCaroselImage {
     border-radius: 25px;
-    height: 350px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
 }
 
   /* Remove extra left and right margins, due to padding */
-  .row {
+  .rowCarosel {
      margin-left: 50px;
      margin-right: 50px;
-     padding: 10px;
+     padding: 100px;
     }
   
   /* Clear floats after the columns */
-  .row:after {
+  .rowCarosel:after {
     content: "";
     display: table;
     clear: both;

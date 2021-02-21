@@ -2,6 +2,8 @@ import React from "react";
 import "./header.scss";
 import logoImage from "../../assets/logo/logo.png";
 import searchSvg from "../../assets/svg/iconfinder.svg";
+import Label from "../../atoms/label/label.jsx";
+import Search from "../../molecules/search/search.jsx";
 
 const Header = () => {
   return (
@@ -10,21 +12,18 @@ const Header = () => {
         <img alt="discovery" className="discovery" src={logoImage} />
       </div>
       <div className="header-right">
-        <div className="">Home</div>
-        <div className="">Explore</div>
-        <div className="">Shorts</div>
-        <div className="">Mindblow</div>
-        <div className="">Premium</div>
+        <Label className="label-container" label="Home" />
+        <Label className="label-container" label="Explore" />
+        <Label className="label-container" label="Shorts" />
+        <Label className="label-container" label="Mindblow" />
+        <Label className="label-container" label="Premium" />
       </div>
       <div className="search-container">
-        <input
+        <Search 
           className="search"
-          type="text"
-          maxlength="100"
-          placeholder="Search for show, episode or shorts"
-          name="search"
+          imgClassname="searchSvg"
+          src={searchSvg}
         />
-        <img className="searchSvg" alt="searchSvg" src={searchSvg} />
       </div>
     </div>
   );
