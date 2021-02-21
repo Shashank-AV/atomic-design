@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../src/molecules/header/header.js";
+import Header from "../../src/organisms/header/header.js";
 import Carosel from "../../src/molecules/carosel/carosel.jsx";
 import Card from "../../src/atoms/card/card";
 import LargeCard from "../../src/atoms/largeCard/largeCard.jsx";

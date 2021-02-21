@@ -24,7 +24,7 @@
 
   img.largecardImage {
     width: 1000px;
-    height: 500px;
+    height: 800px;
     border-radius: 25px;
     margin: 0 150% 0 150%;
     margin-top: 25px;
@@ -45,7 +45,7 @@
   }
   
   /* Responsive columns */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 300px) {
     .column {
       width: 100%;
       display: block;

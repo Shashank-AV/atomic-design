@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Search = ({className, src, imgClassname}) => {
+const Search = ({className, src, imgClassname, classProps}) => {
     return (
-        <div className="div">
+        <div className={classProps}>
             <input
                 className={className}
                 type="text"

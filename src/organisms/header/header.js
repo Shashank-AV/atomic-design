@@ -4,6 +4,7 @@ import logoImage from "../../assets/logo/logo.png";
 import searchSvg from "../../assets/svg/iconfinder.svg";
 import Label from "../../atoms/label/label.jsx";
 import Search from "../../molecules/search/search.jsx";
+import Button from "../../atoms/button/index";
 
 const Header = () => {
   return (
@@ -18,12 +19,17 @@ const Header = () => {
         <Label className="label-container" label="Mindblow" />
         <Label className="label-container" label="Premium" />
       </div>
-      <div className="search-container">
+      <div className="search-container" classProps="search-container">
         <Search 
           className="search"
           imgClassname="searchSvg"
           src={searchSvg}
         />
+      </div>
+      <div>
+        <Button 
+        type="button" className="button-container"
+        >Sign In</Button>
       </div>
     </div>
   );
